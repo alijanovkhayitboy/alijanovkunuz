@@ -1,0 +1,132 @@
+.sect8{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+
+.sect8-cont{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.sect8-main , .sect8-second{
+    width: 49%;
+    height: auto;
+
+}
+
+.sect8-big{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://storage.kun.uz/source/thumbnails/_medium/8/3gT-Cdq9Bx06BMntt6JtUjP7QnbTAyyu_medium.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.7s ease 0s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    h3{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+}
+
+.sect8-big:hover{
+    background-image: url(https://storage.kun.uz/source/thumbnails/_medium/8/3gT-Cdq9Bx06BMntt6JtUjP7QnbTAyyu_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right 20px;
+}
+
+.sect8-small{
+    margin: 15px 7.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.small8-item{
+    width: 49%;
+    height: 250px;
+    overflow: hidden;
+    background-image: url(https://storage.kun.uz/source/7/DaCju5uwiFKNT0EVeFNLVQfRQD31F99Q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.7s ease 0s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    h3{
+        text-align: center;
+        color: #fff;
+    }
+
+}
+
+.small8-item:hover{
+    background-image: url(https://storage.kun.uz/source/7/DaCju5uwiFKNT0EVeFNLVQfRQD31F99Q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left 20px;
+}
+
+
+.big-8::before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+    left: 160px;
+}
+
+.big-8-1::before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(../img/play.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+
+
+.small-8::before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-image: url(../img/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+    left: 160px;
+}
+
+.small-8-1::before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(../img/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    left: 300px;
+}

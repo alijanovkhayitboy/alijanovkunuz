@@ -1,0 +1,33 @@
+.sect7{
+    background-color: #f0f0f0;
+}
+
+
+.sect7-cont{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sect7-item{
+    margin: 0px 10px;
+    width: 24%;
+    height: 390px;
+    background-color: #fff;
+    .img-sect7{
+        width: 100%;
+        height: auto;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    h4{
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+}

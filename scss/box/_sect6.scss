@@ -1,0 +1,48 @@
+
+
+
+.sect6-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.maqola{
+    width: 32%;
+    margin: 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+    .maqola-img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    h3{
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    p{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+.iha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ha{
+    font-size: 20px;
+    width: 350px;
+}

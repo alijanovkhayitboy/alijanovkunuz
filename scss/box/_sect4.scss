@@ -1,0 +1,121 @@
+.sect4{
+    background-color: #F0F0F0;
+}
+
+
+
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.interview{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    h3{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    
+}
+.interview::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 4px solid blue;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.inter-btn{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    border: 1px solid transparent;
+    background-color: transparent;
+    background-image: url(../img/arrow-blue.png);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+
+}
+.inter-btn:hover{
+    background-image: url(../img/arrow-blue.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+
+.inter-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    
+
+}
+
+.sect4-cont{
+    width: 21%;
+    background-color: rgb(255, 255, 255);
+}
+
+.sect4-cont:hover{
+    h3{
+        color: blue;
+    }
+}
+
+.sect4-item_img{
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+.sect4-img{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+.sect4-item{
+    padding: 20px;
+    span{
+        font-size: 28px;
+        color: #777676;
+        font-weight: 700;
+        position: relative;
+        height: 35px;
+        width: 290px;
+        top: -95px;
+        right: -95px;
+        transform: rotate(-90deg);
+        display: block;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        width: 270px;
+        top: -40px;
+    
+    }
+}
+
